@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-rf_model = joblib.load("C:/Users/hp/Downloads/random_forest_model.pkl")
+rf_model = joblib.load("random_forest_model.pkl")
 
 # Streamlit UI
 st.title("Fitness Tracker - Calorie Prediction")
