@@ -20,7 +20,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import GridSearchCV
 
 import os
-print(os.listdir('/content'))
+#print(os.listdir('/content'))
 
 # Load datasets
 daily_activity = pd.read_csv("dailyActivity_merged.csv")
